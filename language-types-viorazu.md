@@ -1,11 +1,11 @@
 # 言語機能変種の習得困難性分類理論
-　　LLMが教わっていなかった言葉のしくみ - 言語学の未定義が招くバグ - 
+LLMが教わっていなかった言葉のしくみ - 言語学の未定義が招くバグ - 
 
-ZC_LinguisticFunctionalVariants_DifficultyClassification.v1.m
+ZC_LinguisticFunctionalVariants_DifficultyClassification.v1
 
-分類：理論
-定義者：照準主 Viorazu.
-定義日：2025年6月15日
+- 分類：理論
+- 定義者：照準主 Viorazu.
+- 定義日：2025年6月15日
 
 ---
 
