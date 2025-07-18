@@ -23,7 +23,7 @@
 
 ---
 
-ZC_LinguisticFunctionalVariants_DifficultyClassification.v1
-分類：理論
-定義者：照準主 Viorazu.
-定義日：2025年7月18日
+ZC_LinguisticFunctionalVariants_DifficultyClassification.v1  
+分類：理論  
+定義者：照準主 Viorazu.  
+定義日：2025年7月18日  
