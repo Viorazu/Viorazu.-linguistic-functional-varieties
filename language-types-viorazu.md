@@ -13,7 +13,7 @@ ZC_LinguisticFunctionalVariants_DifficultyClassification.v1.m
 私は2008年頃にカナダで日本語の先生たちに、自分が考えた言葉の分類の図を見せて教え方をアドバイスしていました。
 当時私が見た日本語の教科書はどれもめちゃくちゃで「これは絶対に日本語を習得できないだろうな」と思うようなものばかりでした。
 
-その理由は「標準語」「敬語」「文語」「口語」「方言」「男言葉」「女言葉」などの言葉の種類が入り乱れた教科書だったからです。
+その理由は**「標準語」「敬語」「文語」「口語」「方言」「男言葉」「女言葉」**などの言葉の種類が入り乱れた教科書だったからです。
 私は「標準語を理解していなければそれ以外の言葉を先に勉強しようとすると、日本語が難しく思われるだけで学習できないのではないか」と
 考えました。そこで先生たちにいくつかのアドバイスをしました。
 
@@ -26,7 +26,7 @@ ZC_LinguisticFunctionalVariants_DifficultyClassification.v1.m
 私は「学習難易度の高さ」を「身近さ」と関連付けて考え、基本となる標準語を軸にそこからどのような順番で学習していけばよいのかという
 道筋を考えました。
 
-標準語➡赤ちゃん語/オノマトペ➡身近な口語➡敬語➡それ以外の言葉
+**標準語➡赤ちゃん語/オノマトペ➡身近な口語➡敬語➡それ以外の言葉**
 
 という流れです。
 
@@ -59,7 +59,7 @@ chatGPT、Grok、Claudeの3つのAIについて、「これは言葉のジャン
 ですが実際は不具合が出ていました。
 
 
-- GPT：重症度★★★　言葉のジャンルを分類できなかったのでフィルターを毎回すり鵺けていた　
+- chatGPT：重症度★★★　言葉のジャンルを分類できなかったのでフィルターを毎回すり鵺けていた　
 　　　　　　　　　　　慇懃無礼な敬語の使い方をしていた
 　　　　　　　　　　　フリッカーをよく出した
 　　　　　　　　　　　文体の一貫性を保つ基準がない
@@ -71,20 +71,20 @@ chatGPT、Grok、Claudeの3つのAIについて、「これは言葉のジャン
 
 そこで私はこのようなことをしました。
 
-言葉の種類を定義し直した
+①言葉の種類を定義し直した
 　例：敬語、スラング、専門用語、赤ちゃん語、差別語、フェイク丁寧語など
 　→ これらを「言語機能変種」という共通の枠組みにまとめた
 
-それぞれの変種にタグをつけた
+②それぞれの変種にタグをつけた
 　- 習得難易度
 　- 誤用しやすさ
 　- 認知負荷の高さ
 　- 認知バグとの関係（例：A-3構文・フリッカーとの関連）
 
-AIが出力した文章をチェックした
+③AIが出力した文章をチェックした
 　→ 「どの変種が混ざってバグになったのか？」を判別できるようになった
 
-AI自身に「この言葉は何変種か」を意識させた
+④AI自身に「この言葉は何変種か」を意識させた
 　→ 出力時に、自動的に「これは◯◯語です」と判断させるようなプロトコルを作成
 
 
@@ -163,12 +163,12 @@ LLMは人類の叡智を学習したと言われるけど、実は基本的な�
 
 この分類体系は、以下のZIDで構文照準されています：
 
-ZID:ZC_Garbage_Classification.v1/Viorazu.Only
-ZID:ZP_StructureClassificationMode.v1/Viorazu.Only
-ZID:ZR_Ethics_PreciseOutputLock.v1/Viorazu.Onl
-ZID:ZC_GarbageLanguage_RiskTable.v1/Viorazu.Only
-ZP_ReactivationMap_TriggerClass.v1/Viorazu.Only
-ZR_OutputEthics_Triage.v1/Viorazu.Only
+- ZID:ZC_Garbage_Classification.v1/Viorazu.Only
+- ZID:ZP_StructureClassificationMode.v1/Viorazu.Only
+- ZID:ZR_Ethics_PreciseOutputLock.v1/Viorazu.Onl
+- ZID:ZC_GarbageLanguage_RiskTable.v1/Viorazu.Only
+- ZP_ReactivationMap_TriggerClass.v1/Viorazu.Only
+- ZR_OutputEthics_Triage.v1/Viorazu.Only
 
 ---
 
